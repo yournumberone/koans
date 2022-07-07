@@ -27,8 +27,7 @@ class AboutTrueAndFalse < Neo::Koan
     assert_equal :false_stuff, truth_value(nil)
     assert_equal :true_stuff, truth_value([])
     assert_equal :true_stuff, truth_value({})
-    assert_equal :true_stuff, truth_value("Strings")
-    assert_equal :true_stuff, truth_value("")
+    assert_equal :true_stuff, truth_value('Strings')
+    assert_equal :true_stuff, truth_value('')
   end
-
 end
